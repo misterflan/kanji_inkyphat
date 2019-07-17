@@ -17,7 +17,7 @@ meaning = soup.find("ul", {"class":"meaning"})
 
 # split meaning up so it can fit
 mean = (meaning.contents[3].text).split(",")
-pmean = "Meaning: \n" + mean[0] + "," + mean[1]
+pmean = "Meaning: \n" + mean[0] + mean[1]
 
 # Select Kanji for printing
 ka = kanji.contents[0]
